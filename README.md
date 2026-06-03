@@ -1,6 +1,6 @@
-# Hi, I'm Mohammed Sannan 👋
+# Hi, I am Sannan 👋
 
-If you came here from one of my posts — hi there. I experiment. I build. Turning ideas into features people actually use.
+I build products that solve my personal problems and hoping to find more users who can relate. 
 
 ---
 
