@@ -51,11 +51,7 @@ Opens local Excel/CSV in Google Sheets in one click.
 
 ## Stats
 
-<a href="#">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=m-sannan&show_icons=true&count_private=true&theme=github_dark&bg_color=00000000&border_radius=6px&border_color=30363d" width="50.5%" />
-</a>
-<a href="#">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=m-sannan&count_private=true&theme=github_dark&layout=compact&bg_color=00000000&border_radius=6px&border_color=30363d" width="42%" />
-</a>
+![GitHub stats](https://github-stats-extended.vercel.app/api?username=m-sannan&show_icons=true&theme=github_dark&bg_color=00000000&hide_border=true)
+![Top langs](https://github-stats-extended.vercel.app/api/top-langs/?username=m-sannan&layout=compact&theme=github_dark&bg_color=00000000&hide_border=true)
 
 Say hello if you have a product problem or something that only bothers you at 1am.
