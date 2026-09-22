@@ -1,35 +1,61 @@
-# Hi, I’m Sannan 👋
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,100:1f2937&height=160&section=header&text=Sannan&fontSize=64&fontAlignY=38&desc=Product%20manager%20who%20also%20designs&descAlignY=58&fontColor=ffffff" width="100%" />
 
-I make things when a tiny annoyance refuses to leave me alone. Occasionally, other people find them useful too. A fortunate arrangement for everyone involved.
+## Hello
 
-I work in product, enjoy a good user journey, and have learned that “I’ll just make a small extension” is usually the opening line of a much longer evening.
+I’m **Mohammed Sannan**, a product manager at [Alyve Health](https://www.alyve.health/). I also design — started with packaging on Fiverr, now it’s product.
 
----
+If something in my day is slightly broken, I usually end up building a fix after 1am.
+
+[~4 years](https://www.linkedin.com/in/mohammedsannan/) in product — digital health, benefits, payments, partner integrations, AI-assisted workflows, and gamification.
+
+- Interested in product design and products people actually finish using
+- Currently shipping teleconsult, pharmacy, Flex, and Alyve Pay
+- Reach me: [linkedin.com/in/mohammedsannan](https://www.linkedin.com/in/mohammedsannan/) · [msannan.vercel.app](https://msannan.vercel.app)
+
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/mohammedsannan/)
+[![Website](https://img.shields.io/badge/website-111827?style=for-the-badge&logo=vercel&logoColor=white)](https://msannan.vercel.app)
+
+![](https://visitcount.itsvg.in/api?id=m-sannan&label=Profile%20views&color=12&icon=5&pretty=true)
+
+## Work
+
+**Alyve Health** — Product Manager  
+Owns teleconsult, pharmacy, Flex. Contributes to Alyve Pay.
+
+**CustomerGlu** — APM → product owner  
+Led the end-user gamification experience — the UI board players actually see — at 40M+ user scale.
+
+**buildd / Flexiple** — consultant  
+Product work across partner integrations and shipping.
+
+Full history on [LinkedIn](https://www.linkedin.com/in/mohammedsannan/).
 
 ## A few things I made
 
-### 🔌 [EchoLog](https://github.com/m-sannan/Echolog_extension) — Chrome extension
+**[OthersPe](https://otherspe.vercel.app)** — live  
+Pay a UPI QR on someone else’s behalf. Friend opens a pay page, picks CRED or any UPI app. Money never touches OthersPe.
 
-Captures network requests and responses on domains you choose. Built for the bugs that only appear when nobody is watching.
+**[Staycheck](https://github.com/m-sannan/staycheck)** — Chrome extension  
+Second opinion on hotel listings across Booking, Agoda, and Expedia. Rating gaps and recurring complaints, before you book.
 
-### 🏆 [Cloneify](https://cloneify.framer.ai/) — Figma plugin
+**[EchoLog](https://github.com/m-sannan/echolog)** — Chrome extension  
+Captures network requests on domains you choose. For bugs that only appear when nobody is watching.
 
-Copies style properties from one object to several selected ones in a click. It reached **#3 Product of the Day** on Product Hunt and is used by **1,800+ people**—which is still mildly surreal.
+**[Cloneify](https://cloneify.framer.ai/)** — Figma plugin  
+Copy styles across objects in one click. Used by 1,800+ people.
 
-### 📊 [Sheeto](https://github.com/m-sannan/Sheeto) — desktop utility
+**[Sheeto](https://github.com/m-sannan/Sheeto)** — desktop utility  
+Opens local Excel/CSV in Google Sheets in one click.
 
-Opens local Excel and CSV files in Google Sheets with one click. Because “download, upload, wait, repeat” did not feel like a workflow worth preserving.
+**Also:** [SnapNotes](https://github.com/m-sannan/snapnotes) · [backfill](https://github.com/m-sannan/backfill-extension) · [Movemint](https://github.com/m-sannan/movemint-codex) · [ps5-shelf](https://github.com/m-sannan/ps5-shelf)
 
-## The rest of the drawer
+## Stats
 
-There are Chrome extensions, small experiments, and one extremely specific PS5 stock checker in the [repositories](https://github.com/m-sannan?tab=repositories). A few starting points:
+<a href="#">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=m-sannan&show_icons=true&count_private=true&theme=github_dark&bg_color=00000000&border_radius=6px&border_color=30363d" width="50.5%" />
+</a>
+<a href="#">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=m-sannan&count_private=true&theme=github_dark&layout=compact&bg_color=00000000&border_radius=6px&border_color=30363d" width="42%" />
+</a>
 
-- 📝 [SnapNotes](https://github.com/m-sannan/snapnotes-extension) — visual notes from any webpage, kept local.
-- 🏨 [Staycheck](https://github.com/m-sannan/staycheck) — a second opinion for hotel listings.
-- ✨ [Movemint](https://github.com/m-sannan/movemint-codex) — a daily nudge for builders who have marketing on their to-do list.
-
----
-
-## Say hello
-
-If you have a product problem, a beautifully niche annoyance, or simply think software could use better manners, let’s talk on [LinkedIn](https://www.linkedin.com/in/mohammedsannan/).
+Say hello if you have a product problem or something that only bothers you at 1am.
