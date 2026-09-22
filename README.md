@@ -2,9 +2,9 @@
 
 ## Hello
 
-I’m **Sannan**. Product manager at [Alyve Health](https://www.alyve.health/). I also design — packaging on Fiverr earlier, product now.
+I’m **Sannan**. Product manager at [Alyve Health](https://www.alyve.health/). I also (used to) design packaging on earlier.
 
-Trying to solve my itch and hoping it helps others as well.
+Vibe coding products and questing my CS degree.
 
 4+ years in product — digital health, payments, partner integrations, and gamification.
 
