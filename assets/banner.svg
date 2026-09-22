@@ -1,104 +1,142 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" shape-rendering="crispEdges">
-  <rect width="1200" height="280" fill="#6BB6FF"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 240" width="1024" height="240" shape-rendering="crispEdges">
+  <defs>
+    <pattern id="brick" width="32" height="16" patternUnits="userSpaceOnUse">
+      <rect width="32" height="16" fill="#C84C0C"/>
+      <rect x="0" y="0" width="32" height="2" fill="#5A1E08"/>
+      <rect x="15" y="2" width="2" height="14" fill="#5A1E08"/>
+      <rect x="0" y="8" width="32" height="2" fill="#5A1E08"/>
+      <rect x="0" y="10" width="2" height="6" fill="#5A1E08"/>
+      <rect x="30" y="10" width="2" height="6" fill="#5A1E08"/>
+      <rect x="2" y="2" width="12" height="5" fill="#E67A22"/>
+      <rect x="18" y="2" width="12" height="5" fill="#E67A22"/>
+      <rect x="2" y="11" width="27" height="4" fill="#E67A22"/>
+    </pattern>
+    <style>
+      #clouds { animation: drift 28s linear infinite; }
+      @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-1024px); } }
+      #runner { animation: run 1.2s steps(4) infinite; }
+      @keyframes run {
+        0% { transform: translate(300px,160px); }
+        25% { transform: translate(308px,158px); }
+        50% { transform: translate(316px,160px); }
+        75% { transform: translate(324px,158px); }
+        100% { transform: translate(332px,160px); }
+      }
+    </style>
+  </defs>
 
-  <!-- clouds -->
-  <g fill="#FFFFFF">
-    <rect x="70" y="36" width="56" height="16"/>
-    <rect x="86" y="20" width="40" height="16"/>
-    <rect x="102" y="12" width="16" height="8"/>
-    <rect x="980" y="48" width="72" height="16"/>
-    <rect x="996" y="32" width="48" height="16"/>
-    <rect x="1012" y="24" width="16" height="8"/>
-    <rect x="430" y="28" width="40" height="12"/>
-    <rect x="442" y="16" width="24" height="12"/>
+  <rect width="1024" height="240" fill="#8B8CFF"/>
+
+  <g id="clouds">
+      <g fill="#FFFFFF" transform="translate(40,18)">
+        <rect x="16" y="10" width="56" height="10"/>
+        <rect x="8" y="16" width="80" height="10"/>
+        <rect x="24" y="4" width="32" height="8"/>
+        <rect x="20" y="20" width="12" height="4" fill="#C8E8FF"/>
+        <rect x="48" y="20" width="16" height="4" fill="#C8E8FF"/>
+      </g>
+      <g fill="#FFFFFF" transform="translate(280,40)">
+        <rect x="12" y="8" width="40" height="8"/>
+        <rect x="4" y="14" width="60" height="8"/>
+        <rect x="16" y="2" width="24" height="8"/>
+        <rect x="14" y="18" width="10" height="3" fill="#C8E8FF"/>
+      </g>
+      <g fill="#FFFFFF" transform="translate(720,22)">
+        <rect x="16" y="10" width="56" height="10"/>
+        <rect x="8" y="16" width="80" height="10"/>
+        <rect x="28" y="4" width="28" height="8"/>
+        <rect x="24" y="20" width="14" height="4" fill="#C8E8FF"/>
+      </g>
+      <g fill="#FFFFFF" transform="translate(1064,18)">
+        <rect x="16" y="10" width="56" height="10"/>
+        <rect x="8" y="16" width="80" height="10"/>
+        <rect x="24" y="4" width="32" height="8"/>
+        <rect x="20" y="20" width="12" height="4" fill="#C8E8FF"/>
+      </g>
+      <g fill="#FFFFFF" transform="translate(1304,40)">
+        <rect x="12" y="8" width="40" height="8"/>
+        <rect x="4" y="14" width="60" height="8"/>
+        <rect x="16" y="2" width="24" height="8"/>
+      </g>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-1024 0" dur="28s" repeatCount="indefinite"/>
   </g>
 
-  <!-- question blocks -->
+  <g transform="translate(288,16)">
+    <rect width="448" height="88" fill="#7A2E0B"/>
+    <rect x="4" y="4" width="440" height="80" fill="#C84C0C"/>
+    <rect x="8" y="8" width="432" height="72" fill="#D35400"/>
+    <rect x="10" y="10" width="6" height="6" fill="#5A1E08"/>
+    <rect x="432" y="10" width="6" height="6" fill="#5A1E08"/>
+    <rect x="10" y="72" width="6" height="6" fill="#5A1E08"/>
+    <rect x="432" y="72" width="6" height="6" fill="#5A1E08"/>
+    <text x="224" y="52" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="42" fill="#F4E4B8">SANNAN</text>
+    <text x="224" y="72" text-anchor="middle" font-family="Courier New, monospace" font-size="11" font-weight="700" fill="#F6D7A7">WORLD 1-1 PRODUCT MANAGER   ·   WORLD 1-2 DESIGNER</text>
+  </g>
+
   <g>
-    <rect x="160" y="88" width="36" height="36" fill="#F0C030"/>
-    <rect x="164" y="92" width="28" height="28" fill="#E8A818"/>
-    <text x="178" y="116" text-anchor="middle" font-family="Courier New, monospace" font-size="26" font-weight="700" fill="#7A3A00">?</text>
-    <rect x="1004" y="72" width="36" height="36" fill="#F0C030"/>
-    <rect x="1008" y="76" width="28" height="28" fill="#E8A818"/>
-    <text x="1022" y="100" text-anchor="middle" font-family="Courier New, monospace" font-size="26" font-weight="700" fill="#7A3A00">?</text>
+    <rect x="196" y="72" width="24" height="24" fill="#F0C030" stroke="#7A3A00" stroke-width="2"/>
+    <text x="208" y="90" text-anchor="middle" font-family="Courier New, monospace" font-size="16" font-weight="700" fill="#7A3A00">?</text>
+    <rect x="804" y="48" width="24" height="24" fill="#F0C030" stroke="#7A3A00" stroke-width="2"/>
+    <text x="816" y="66" text-anchor="middle" font-family="Courier New, monospace" font-size="16" font-weight="700" fill="#7A3A00">?</text>
+    <rect x="768" y="112" width="24" height="24" fill="url(#brick)"/>
+    <rect x="792" y="112" width="24" height="24" fill="#F0C030" stroke="#7A3A00" stroke-width="2"/>
+    <text x="804" y="130" text-anchor="middle" font-family="Courier New, monospace" font-size="16" font-weight="700" fill="#7A3A00">?</text>
+    <rect x="816" y="112" width="24" height="24" fill="url(#brick)"/>
+    <rect x="840" y="112" width="24" height="24" fill="#F0C030" stroke="#7A3A00" stroke-width="2"/>
+    <text x="852" y="130" text-anchor="middle" font-family="Courier New, monospace" font-size="16" font-weight="700" fill="#7A3A00">?</text>
+    <rect x="864" y="112" width="24" height="24" fill="url(#brick)"/>
   </g>
 
-  <!-- title sign -->
-  <rect x="360" y="28" width="480" height="92" fill="#B45309"/>
-  <rect x="368" y="36" width="464" height="76" fill="#C2410C"/>
-  <text x="600" y="84" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="52" fill="#FDE68A">SANNAN</text>
-  <text x="600" y="104" text-anchor="middle" font-family="Courier New, monospace" font-size="13" font-weight="700" fill="#FED7AA">WORLD 1-1  PRODUCT MANAGER   ·   WORLD 1-2  DESIGNER</text>
+  <g fill="#1F9A3A">
+    <g transform="translate(8,136)">
+      <rect x="48" y="32" width="112" height="40"/>
+      <rect x="64" y="16" width="80" height="16"/>
+      <rect x="80" y="0" width="48" height="16"/>
+      <rect x="72" y="24" width="8" height="8" fill="#14532D"/>
+      <rect x="104" y="8" width="8" height="8" fill="#14532D"/>
+    </g>
+    <g transform="translate(560,152)">
+      <rect x="24" y="24" width="80" height="32"/>
+      <rect x="40" y="8" width="48" height="16"/>
+      <rect x="52" y="0" width="24" height="8"/>
+      <rect x="56" y="16" width="8" height="8" fill="#14532D"/>
+    </g>
+  </g>
 
-  <!-- floating level plaques -->
+  <g fill="#3DCF4A">
+    <g transform="translate(360,168)">
+      <rect x="8" y="8" width="88" height="16"/>
+      <rect x="16" y="0" width="24" height="8"/>
+      <rect x="40" y="0" width="24" height="8"/>
+      <rect x="64" y="0" width="16" height="8"/>
+    </g>
+    <g transform="translate(900,168)">
+      <rect x="8" y="8" width="56" height="16"/>
+      <rect x="16" y="0" width="32" height="8"/>
+    </g>
+  </g>
+
   <g font-family="Courier New, monospace" font-weight="700">
-    <rect x="48" y="140" width="168" height="28" fill="#7C2D12"/>
-    <text x="132" y="159" text-anchor="middle" font-size="12" fill="#FDE68A">1-1  PM</text>
-    <rect x="984" y="140" width="168" height="28" fill="#7C2D12"/>
-    <text x="1068" y="159" text-anchor="middle" font-size="12" fill="#FDE68A">1-2  DESIGN</text>
+    <rect x="24" y="120" width="120" height="20" fill="#6B2A0A"/>
+    <text x="84" y="134" text-anchor="middle" font-size="10" fill="#FDE68A">1-1  PM</text>
+    <rect x="880" y="88" width="120" height="20" fill="#6B2A0A"/>
+    <text x="940" y="102" text-anchor="middle" font-size="10" fill="#FDE68A">1-2  DESIGN</text>
   </g>
 
-  <!-- bushes + hill -->
-  <g fill="#22C55E">
-    <rect x="430" y="188" width="80" height="28"/>
-    <rect x="446" y="172" width="48" height="16"/>
-    <rect x="720" y="176" width="120" height="40"/>
-    <rect x="748" y="152" width="64" height="24"/>
-    <circle cx="780" cy="168" r="6" fill="#14532D"/>
-    <circle cx="796" cy="168" r="6" fill="#14532D"/>
+  <g id="runner" transform="translate(300,160)">
+      <rect x="6" y="0" width="12" height="6" fill="#111827"/>
+      <rect x="4" y="6" width="16" height="10" fill="#E8B48A"/>
+      <rect x="8" y="10" width="3" height="3" fill="#111827"/>
+      <rect x="14" y="10" width="3" height="3" fill="#111827"/>
+      <rect x="2" y="16" width="20" height="12" fill="#0F766E"/>
+      <rect x="0" y="18" width="6" height="6" fill="#E8B48A"/>
+      <rect x="18" y="18" width="6" height="6" fill="#E8B48A"/>
+      <rect x="4" y="28" width="8" height="12" fill="#1E3A8A"/>
+      <rect x="12" y="28" width="8" height="12" fill="#1E3A8A"/>
+      <rect x="2" y="38" width="10" height="4" fill="#78350F"/>
+      <rect x="14" y="38" width="10" height="4" fill="#78350F"/>
+      <animateTransform attributeName="transform" type="translate" values="300,160; 308,158; 316,160; 324,158; 332,160" dur="1.2s" repeatCount="indefinite"/>
   </g>
 
-  <!-- runner -->
-  <g transform="translate(250,168)">
-    <rect x="10" y="0" width="16" height="8" fill="#1F2937"/>
-    <rect x="8" y="8" width="20" height="12" fill="#F4C7A1"/>
-    <rect x="12" y="12" width="4" height="4" fill="#111827"/>
-    <rect x="22" y="12" width="4" height="4" fill="#111827"/>
-    <rect x="6" y="20" width="24" height="16" fill="#0F766E"/>
-    <rect x="4" y="22" width="8" height="8" fill="#F4C7A1"/>
-    <rect x="24" y="22" width="10" height="8" fill="#F4C7A1"/>
-    <rect x="8" y="36" width="10" height="14" fill="#1E3A8A"/>
-    <rect x="20" y="36" width="10" height="14" fill="#1E3A8A"/>
-    <rect x="6" y="48" width="12" height="6" fill="#78350F"/>
-    <rect x="22" y="48" width="12" height="6" fill="#78350F"/>
-  </g>
-
-  <!-- brick ground -->
-  <g>
-    <rect x="0" y="220" width="1200" height="60" fill="#C2410C"/>
-    <rect x="0" y="220" width="1200" height="8" fill="#9A3412"/>
-  </g>
-  <g fill="#9A3412">
-    <rect x="0" y="236" width="40" height="4"/>
-    <rect x="80" y="252" width="40" height="4"/>
-    <rect x="160" y="236" width="40" height="4"/>
-    <rect x="240" y="252" width="40" height="4"/>
-    <rect x="320" y="236" width="40" height="4"/>
-    <rect x="400" y="252" width="40" height="4"/>
-    <rect x="480" y="236" width="40" height="4"/>
-    <rect x="560" y="252" width="40" height="4"/>
-    <rect x="640" y="236" width="40" height="4"/>
-    <rect x="720" y="252" width="40" height="4"/>
-    <rect x="800" y="236" width="40" height="4"/>
-    <rect x="880" y="252" width="40" height="4"/>
-    <rect x="960" y="236" width="40" height="4"/>
-    <rect x="1040" y="252" width="40" height="4"/>
-    <rect x="1120" y="236" width="40" height="4"/>
-  </g>
-  <g fill="#EA580C" opacity="0.45">
-    <rect x="40" y="228" width="36" height="36"/>
-    <rect x="120" y="228" width="36" height="36"/>
-    <rect x="200" y="228" width="36" height="36"/>
-    <rect x="280" y="228" width="36" height="36"/>
-    <rect x="360" y="228" width="36" height="36"/>
-    <rect x="440" y="228" width="36" height="36"/>
-    <rect x="520" y="228" width="36" height="36"/>
-    <rect x="600" y="228" width="36" height="36"/>
-    <rect x="680" y="228" width="36" height="36"/>
-    <rect x="760" y="228" width="36" height="36"/>
-    <rect x="840" y="228" width="36" height="36"/>
-    <rect x="920" y="228" width="36" height="36"/>
-    <rect x="1000" y="228" width="36" height="36"/>
-    <rect x="1080" y="228" width="36" height="36"/>
-    <rect x="1160" y="228" width="36" height="36"/>
-  </g>
+  <rect x="0" y="192" width="1024" height="48" fill="url(#brick)"/>
 </svg>
