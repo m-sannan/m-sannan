@@ -1,16 +1,12 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,100:1f2937&height=160&section=header&text=Sannan&fontSize=64&fontAlignY=38&desc=Product%20manager%20who%20also%20designs&descAlignY=58&fontColor=ffffff" width="100%" />
+<img src="./assets/banner.svg" width="100%" alt="Sannan — World 1-1 Product Manager, World 1-2 Designer" />
 
 ## Hello
 
-I’m **Mohammed Sannan**, a product manager at [Alyve Health](https://www.alyve.health/). I also design — started with packaging on Fiverr, now it’s product.
+I’m **Mohammed Sannan**. Product manager at [Alyve Health](https://www.alyve.health/). I also design — packaging on Fiverr first, product now.
 
 If something in my day is slightly broken, I usually end up building a fix after 1am.
 
-[~4 years](https://www.linkedin.com/in/mohammedsannan/) in product — digital health, benefits, payments, partner integrations, AI-assisted workflows, and gamification.
-
-- Interested in product design and products people actually finish using
-- Currently shipping teleconsult, pharmacy, Flex, and Alyve Pay
-- Reach me: [linkedin.com/in/mohammedsannan](https://www.linkedin.com/in/mohammedsannan/) · [msannan.vercel.app](https://msannan.vercel.app)
+4 years in product — digital health, benefits, payments, partner integrations, AI-assisted workflows, and gamification.
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/mohammedsannan/)
 [![Website](https://img.shields.io/badge/website-111827?style=for-the-badge&logo=vercel&logoColor=white)](https://msannan.vercel.app)
@@ -19,16 +15,14 @@ If something in my day is slightly broken, I usually end up building a fix after
 
 ## Work
 
-**Alyve Health** — Product Manager  
-Owns teleconsult, pharmacy, Flex. Contributes to Alyve Pay.
+**Alyve Health — Product Manager**  
+Owns teleconsult, pharmacy, and Flex. Ships Alyve Pay. The products members use when they actually need care, not the deck.
 
-**CustomerGlu** — APM → product owner  
-Led the end-user gamification experience — the UI board players actually see — at 40M+ user scale.
+**CustomerGlu — APM → product owner**  
+Led the end-user gamification board at 40M+ scale — the UI players see and play, not the admin setup. That’s the jump from APM to owning the experience.
 
-**buildd / Flexiple** — consultant  
-Product work across partner integrations and shipping.
-
-Full history on [LinkedIn](https://www.linkedin.com/in/mohammedsannan/).
+**buildd / Flexiple — consultant**  
+Came in to unstick partner integrations and get the thing out the door.
 
 ## A few things I made
 
@@ -42,7 +36,7 @@ Second opinion on hotel listings across Booking, Agoda, and Expedia. Rating gaps
 Captures network requests on domains you choose. For bugs that only appear when nobody is watching.
 
 **[Cloneify](https://cloneify.framer.ai/)** — Figma plugin  
-Copy styles across objects in one click. Used by 1,800+ people.
+Copy styles across objects in one click. #3 Product of the Day on Product Hunt. 1,800+ users.
 
 **[Sheeto](https://github.com/m-sannan/Sheeto)** — desktop utility  
 Opens local Excel/CSV in Google Sheets in one click.
@@ -51,7 +45,5 @@ Opens local Excel/CSV in Google Sheets in one click.
 
 ## Stats
 
-![GitHub stats](https://github-stats-extended.vercel.app/api?username=m-sannan&show_icons=true&theme=github_dark&bg_color=00000000&hide_border=true)
+![GitHub stats](https://github-stats-extended.vercel.app/api?username=m-sannan&show_icons=true&theme=github_dark&bg_color=00000000&hide_border=true&hide=issues,contribs)
 ![Top langs](https://github-stats-extended.vercel.app/api/top-langs/?username=m-sannan&layout=compact&theme=github_dark&bg_color=00000000&hide_border=true)
-
-Say hello if you have a product problem or something that only bothers you at 1am.
