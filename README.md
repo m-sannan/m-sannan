@@ -20,31 +20,59 @@ By day I build consumer health and UPI payment products at [Alyve Health](https:
 
 ## 🏰 Stages & Progression
 
-#### 🟢 `WORLD 1-1` · Alyve Health · Product Manager
-*Bangalore, India · Present*  
-Co-owning **Alyve Pay** (taking UPI and dynamic QR payment flows live and hunting down root-cause payment failure modes in the wild), expanding **Alyve Flex** (bridging outpatient family plans with inpatient top-up experiences), and leading the **Doctor Consultation** and pharmacy product modules.
-
-#### 🟡 `WORLD 1-2` · CustomerGlu · APM → Product Owner
-*Bangalore, India*  
-Led the end-user gamification pod (streaks, scratch cards, rewards, nudges, and low-code campaign workflows) plugged in by consumer apps across beauty, fintech, and FMCG (including Nykaa and Rupeek) to drive habit loops and retention.
-
-#### ⚪ `BONUS STAGE` · buildd / Flexiple & Packaging Design
-Designed growth and gamification experiments across consumer apps, after starting out designing physical packaging and brand visuals on Fiverr.
+<p align="center">
+  <img src="./assets/stages.svg" width="100%" alt="Stages & Progression — Career World Map" />
+</p>
 
 ---
 
 ## 🍄 Power-Ups Shipped
 
-| Project | Category | Description | Links |
-| :--- | :--- | :--- | :--- |
-| 🪙 **[OthersPe](https://otherspe.vercel.app/)** | `Fintech · UPI` | Scan any merchant or personal UPI QR, set the exact amount, and generate a zero-server payment link so someone else pays via CRED or any UPI app. Money never touches OthersPe. | [Demo](https://otherspe.vercel.app/) · [Case Study](https://msannan.vercel.app/otherspe.html) · [Repo](https://github.com/m-sannan/otherspe) |
-| 🎮 **[Crate](https://ps5-shelf.vercel.app/)** | `Web App · Shelf` | Letterboxd for physical PS5 discs. Pin your Favourite Four, write short takes, track disc loans and resale value in ₹, and sync across devices via a 6-digit pairing code with no login wall. | [Demo](https://ps5-shelf.vercel.app/) · [Case Study](https://msannan.vercel.app/crate.html) · [Repo](https://github.com/m-sannan/ps5-shelf) |
-| 🔍 **[StayCheck](https://chromewebstore.google.com/detail/staycheck/mjgdchcpacfmgocenlemmbecmcbiahkb)** | `Chrome Extension` | Cross-checks hotel property pages on Booking.com, Agoda, and Expedia against live Google Maps ratings and review snippets before booking. | [Web Store](https://chromewebstore.google.com/detail/staycheck/mjgdchcpacfmgocenlemmbecmcbiahkb) · [Case Study](https://msannan.vercel.app/staycheck.html) · [Repo](https://github.com/m-sannan/staycheck) |
-| 🏆 **[Cloneify](https://cloneify.framer.ai/)** | `Figma Plugin` | One-click style copying across Figma objects. Ranked #3 Product of the Day on Product Hunt (1,800+ designers). | [Product Hunt](https://cloneify.framer.ai/) · [Case Study](https://msannan.vercel.app/cloneify.html) |
+<table align="center" width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://otherspe.vercel.app/">
+        <img src="./assets/card-otherspe.svg" width="100%" alt="OthersPe" />
+      </a>
+      <br />
+      <a href="https://otherspe.vercel.app/"><b>Live Demo</b></a> · 
+      <a href="https://msannan.vercel.app/otherspe.html">Case Study</a> · 
+      <a href="https://github.com/m-sannan/otherspe">GitHub</a>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://ps5-shelf.vercel.app/">
+        <img src="./assets/card-crate.svg" width="100%" alt="Crate" />
+      </a>
+      <br />
+      <a href="https://ps5-shelf.vercel.app/"><b>Live Demo</b></a> · 
+      <a href="https://msannan.vercel.app/crate.html">Case Study</a> · 
+      <a href="https://github.com/m-sannan/ps5-shelf">GitHub</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://chromewebstore.google.com/detail/staycheck/mjgdchcpacfmgocenlemmbecmcbiahkb">
+        <img src="./assets/card-staycheck.svg" width="100%" alt="StayCheck" />
+      </a>
+      <br />
+      <a href="https://chromewebstore.google.com/detail/staycheck/mjgdchcpacfmgocenlemmbecmcbiahkb"><b>Chrome Web Store</b></a> · 
+      <a href="https://msannan.vercel.app/staycheck.html">Case Study</a> · 
+      <a href="https://github.com/m-sannan/staycheck">GitHub</a>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://cloneify.framer.ai/">
+        <img src="./assets/card-cloneify.svg" width="100%" alt="Cloneify" />
+      </a>
+      <br />
+      <a href="https://cloneify.framer.ai/"><b>Product Hunt (#3 of Day)</b></a> · 
+      <a href="https://msannan.vercel.app/cloneify.html">Case Study</a>
+    </td>
+  </tr>
+</table>
 
 <details>
 <summary>🎒 <b>Side Quests & Weekend Experiments (Sheeto, EchoLog, NearU, Movemint...)</b></summary>
-<br>
+<br />
 
 * ⚡ **[Sheeto](https://6014760986164.gumroad.com/l/sheeto)** ([case study](https://msannan.vercel.app/sheeto.html) · [repo](https://github.com/m-sannan/Sheeto)) — Native macOS and Windows desktop utility that opens any local `.xlsx`, `.xls`, or `.csv` file straight into Google Sheets on double-click.
 * 🛰️ **[EchoLog](https://github.com/m-sannan/echolog)** & **[Splitwise Local](https://msannan.vercel.app/splitwise-local.html)** — Chrome extension that silently buffers background XHR/Fetch API calls for 1-click reproducible bug reports, plus a zero-paywall trip expense splitter.

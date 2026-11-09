@@ -1,0 +1,27 @@
+<svg width="380" height="135" viewBox="0 0 380 135" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges" role="img" aria-label="Crate — PS5 Shelf Project">
+  <rect width="380" height="135" rx="6" fill="#0D1117" stroke="#30363D" stroke-width="2"/>
+  <rect x="4" y="4" width="372" height="127" rx="4" fill="#161B22" stroke="#21262D" stroke-width="1"/>
+  <rect x="4" y="4" width="6" height="127" fill="#58A6FF"/>
+
+  <g font-family="'Courier New', Courier, Monaco, monospace" font-weight="900">
+    <!-- Header: Title + Tag -->
+    <text x="22" y="28" font-size="16" fill="#FFFFFF">Crate</text>
+    <rect x="240" y="14" width="122" height="18" rx="3" fill="#112238" stroke="#1F4275" stroke-width="1"/>
+    <text x="301" y="27" text-anchor="middle" font-size="9" fill="#58A6FF">PS5 · PHYSICAL</text>
+
+    <!-- Subtitle summary -->
+    <text x="22" y="54" font-size="11" font-weight="normal" fill="#C9D1D9">
+      Letterboxd for physical PS5 discs. Pin
+    </text>
+    <text x="22" y="70" font-size="11" font-weight="normal" fill="#C9D1D9">
+      Favourite Four, track disc loans &amp; ₹
+    </text>
+    <text x="22" y="86" font-size="11" font-weight="normal" fill="#8B949E">
+      resale value via 6-digit sync code.
+    </text>
+
+    <!-- Footer Action -->
+    <line x1="22" y1="102" x2="358" y2="102" stroke="#30363D" stroke-width="1"/>
+    <text x="22" y="120" font-size="10" fill="#58A6FF">&#9654; OPEN CRATE  ·  VIEW CASE STUDY</text>
+  </g>
+</svg>
