@@ -1,5 +1,6 @@
-<svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges" role="img" aria-label="Sannan — Product Manager, Designer">
+<svg width="800" height="220" viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges" role="img" aria-label="Sannan — World 1-1 Product Manager, World 1-2 Designer">
   <defs>
+    <!-- Seamless looping brick floor pattern -->
     <pattern id="brick" width="32" height="16" patternUnits="userSpaceOnUse">
       <rect width="32" height="16" fill="#C84C0C"/>
       <rect width="32" height="2" fill="#5A1E08"/>
@@ -10,39 +11,104 @@
       <rect x="2" y="2" width="12" height="5" fill="#E67A22"/>
       <rect x="18" y="2" width="12" height="5" fill="#E67A22"/>
       <rect x="2" y="11" width="27" height="4" fill="#E67A22"/>
-      <animateTransform attributeName="patternTransform" type="translate" from="0,0" to="32,0" dur="2.5s" repeatCount="indefinite"/>
+      <animateTransform attributeName="patternTransform" type="translate" from="0,0" to="32,0" dur="2s" repeatCount="indefinite"/>
     </pattern>
   </defs>
 
-  <rect width="800" height="200" fill="#8B8CFF"/>
+  <!-- Sky Background -->
+  <rect width="800" height="220" fill="#6A85FF"/>
 
-  <g fill="#FFFFFF">
-    <g transform="translate(40,20)"><rect x="16" y="10" width="56" height="10"/><rect x="8" y="16" width="80" height="10"/><rect x="24" y="4" width="32" height="8"/></g>
-    <g transform="translate(320,34)"><rect x="12" y="8" width="40" height="8"/><rect x="4" y="14" width="60" height="8"/><rect x="16" y="2" width="24" height="8"/></g>
-    <g transform="translate(600,16)"><rect x="16" y="10" width="56" height="10"/><rect x="8" y="16" width="80" height="10"/><rect x="24" y="4" width="32" height="8"/></g>
-    <g transform="translate(840,20)"><rect x="16" y="10" width="56" height="10"/><rect x="8" y="16" width="80" height="10"/><rect x="24" y="4" width="32" height="8"/></g>
-    <g transform="translate(1120,34)"><rect x="12" y="8" width="40" height="8"/><rect x="4" y="14" width="60" height="8"/><rect x="16" y="2" width="24" height="8"/></g>
-    <g transform="translate(1400,16)"><rect x="16" y="10" width="56" height="10"/><rect x="8" y="16" width="80" height="10"/><rect x="24" y="4" width="32" height="8"/></g>
-    <animateTransform attributeName="transform" type="translate" values="0,0;-800,0" dur="20s" repeatCount="indefinite"/>
+  <!-- Pixel Hills & Bushes -->
+  <g fill="#00A800">
+    <path d="M -10,188 Q 60,130 130,188 Z"/>
+    <path d="M 260,188 Q 330,140 400,188 Z"/>
+    <path d="M 640,188 Q 720,125 790,188 Z"/>
+  </g>
+  <g fill="#80D010">
+    <path d="M 80,188 Q 130,150 180,188 Z"/>
+    <path d="M 440,188 Q 490,155 540,188 Z"/>
   </g>
 
-  <g>
-    <rect width="26" height="26" fill="#F0C030" stroke="#7A3A00" stroke-width="2"/>
-    <text x="13" y="19" text-anchor="middle" font-family="Courier New, monospace" font-size="17" font-weight="700" fill="#7A3A00">?</text>
-    <animateTransform attributeName="transform" type="translate" values="60,110;60,102;60,110" dur="1.3s" repeatCount="indefinite"/>
-  </g>
-  <g>
-    <rect width="26" height="26" fill="#F0C030" stroke="#7A3A00" stroke-width="2"/>
-    <text x="13" y="19" text-anchor="middle" font-family="Courier New, monospace" font-size="17" font-weight="700" fill="#7A3A00">?</text>
-    <animateTransform attributeName="transform" type="translate" values="700,90;700,82;700,90" dur="1.5s" begin="0.4s" repeatCount="indefinite"/>
-  </g>
-
-  <g text-anchor="middle" font-family="Courier New, monospace" font-weight="700">
-    <text x="402" y="92" font-size="36" fill="#5A1E08">SANNAN</text>
-    <text x="400" y="90" font-size="36" fill="#F4E4B8">SANNAN</text>
-    <text x="402" y="122" font-size="14" fill="#5A1E08">WORLD 1-1 PRODUCT MANAGER  ·  WORLD 1-2 DESIGNER</text>
-    <text x="400" y="120" font-size="14" fill="#F6D7A7">WORLD 1-1 PRODUCT MANAGER  ·  WORLD 1-2 DESIGNER</text>
+  <!-- Scrolling Clouds -->
+  <g fill="#FFFFFF" opacity="0.95">
+    <g transform="translate(0, 0)">
+      <g transform="translate(40,36)"><rect x="16" y="8" width="48" height="8"/><rect x="8" y="14" width="68" height="8"/><rect x="24" y="2" width="28" height="6"/></g>
+      <g transform="translate(320,44)"><rect x="12" y="6" width="36" height="7"/><rect x="4" y="12" width="52" height="7"/><rect x="16" y="2" width="20" height="6"/></g>
+      <g transform="translate(600,32)"><rect x="16" y="8" width="48" height="8"/><rect x="8" y="14" width="68" height="8"/><rect x="24" y="2" width="28" height="6"/></g>
+      <animateTransform attributeName="transform" type="translate" values="0,0;-800,0" dur="22s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(800, 0)">
+      <g transform="translate(40,36)"><rect x="16" y="8" width="48" height="8"/><rect x="8" y="14" width="68" height="8"/><rect x="24" y="2" width="28" height="6"/></g>
+      <g transform="translate(320,44)"><rect x="12" y="6" width="36" height="7"/><rect x="4" y="12" width="52" height="7"/><rect x="16" y="2" width="20" height="6"/></g>
+      <g transform="translate(600,32)"><rect x="16" y="8" width="48" height="8"/><rect x="8" y="14" width="68" height="8"/><rect x="24" y="2" width="28" height="6"/></g>
+      <animateTransform attributeName="transform" type="translate" values="0,0;-800,0" dur="22s" repeatCount="indefinite"/>
+    </g>
   </g>
 
-  <rect x="0" y="168" width="800" height="32" fill="url(#brick)"/>
+  <!-- Top NES HUD Bar -->
+  <rect width="800" height="26" fill="#000000"/>
+  <g font-family="'Courier New', Courier, Monaco, monospace" font-weight="900" font-size="11" fill="#FFFFFF">
+    <text x="36" y="17">SANNAN</text>
+    <text x="130" y="17">024850</text>
+
+    <!-- Spinning HUD Coin -->
+    <g transform="translate(290, 8)">
+      <ellipse cx="6" cy="6" rx="5" ry="6" fill="#F8B800">
+        <animate attributeName="rx" values="5;1;5" dur="0.8s" repeatCount="indefinite"/>
+      </ellipse>
+      <text x="18" y="9" font-family="'Courier New', Courier, Monaco, monospace" font-size="11" fill="#FFFFFF">x99</text>
+    </g>
+
+    <text x="440" y="17">WORLD <tspan fill="#FC9838">1-1</tspan></text>
+    <text x="660" y="17">TIME <tspan fill="#FFFFFF">388</tspan></text>
+  </g>
+
+  <!-- Question Block with Popping Coin (Left Side) -->
+  <g transform="translate(68, 114)">
+    <rect width="28" height="28" fill="#F0C030" stroke="#7A3A00" stroke-width="2"/>
+    <rect x="2" y="2" width="24" height="2" fill="#FFE890"/>
+    <rect x="2" y="2" width="2" height="24" fill="#FFE890"/>
+    <text x="14" y="20" text-anchor="middle" font-family="'Courier New', Courier, Monaco, monospace" font-size="16" font-weight="900" fill="#7A3A00">?</text>
+    <animateTransform attributeName="transform" type="translate" values="68,114; 68,110; 68,114" dur="1.2s" repeatCount="indefinite"/>
+
+    <!-- Popping Coin -->
+    <g>
+      <ellipse cx="14" cy="-10" rx="5" ry="7" fill="#FFE800" stroke="#7A3A00" stroke-width="1.5">
+        <animate attributeName="rx" values="5;1;5" dur="0.5s" repeatCount="indefinite"/>
+      </ellipse>
+      <animateTransform attributeName="transform" type="translate" values="0,6; 0,-26; 0,6" dur="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0; 1; 0" dur="1.2s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- Alyve Health Warp Pipe (Right Side) -->
+  <g transform="translate(680, 126)">
+    <rect x="0" y="0" width="54" height="18" fill="#00A800" stroke="#000000" stroke-width="2"/>
+    <rect x="2" y="2" width="50" height="3" fill="#80D010"/>
+    <rect x="4" y="18" width="46" height="44" fill="#00A800" stroke="#000000" stroke-width="2"/>
+    <rect x="6" y="18" width="4" height="44" fill="#80D010"/>
+    <text x="27" y="42" text-anchor="middle" font-family="'Courier New', Courier, Monaco, monospace" font-size="9" font-weight="900" fill="#FFFFFF">ALYVE</text>
+  </g>
+
+  <!-- Center Title & Subtitle Badge -->
+  <g text-anchor="middle" font-family="'Courier New', Courier, Monaco, monospace" font-weight="900">
+    <!-- Drop Shadow -->
+    <text x="402" y="98" font-size="38" fill="#3A1204" letter-spacing="2">SANNAN</text>
+    <!-- Foreground Text -->
+    <text x="400" y="96" font-size="38" fill="#FCE4A8" letter-spacing="2">SANNAN</text>
+
+    <!-- Subtitle Pill Box -->
+    <rect x="180" y="118" width="440" height="24" rx="4" fill="#000000" opacity="0.6"/>
+    <text x="400" y="134" font-size="12" fill="#FFFFFF" letter-spacing="1">WORLD 1-1 PRODUCT MANAGER  ·  WORLD 1-2 DESIGNER</text>
+
+    <!-- Pulsing Prompt -->
+    <text x="400" y="162" font-size="11" fill="#F8B800" letter-spacing="1">
+      &#9654; PRESS START TO EXPLORE BUILDS
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- Ground Brick Floor -->
+  <rect x="0" y="188" width="800" height="32" fill="url(#brick)"/>
+  <rect x="0" y="186" width="800" height="2" fill="#000000"/>
 </svg>
