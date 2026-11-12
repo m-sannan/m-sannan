@@ -21,7 +21,7 @@ By day I build consumer health and UPI payment products at [Alyve Health](https:
 ## 🏰 Stages & Progression
 
 <p align="center">
-  <img src="./assets/stages.svg" width="100%" alt="Stages & Progression — Career World Map" />
+  <img src="./assets/stages.svg" width="100%" alt="Stages and Progression - Career World Map" />
 </p>
 
 ---
@@ -35,18 +35,18 @@ By day I build consumer health and UPI payment products at [Alyve Health](https:
         <img src="./assets/card-otherspe.svg" width="100%" alt="OthersPe" />
       </a>
       <br />
-      <a href="https://otherspe.vercel.app/"><b>Live Demo</b></a> · 
-      <a href="https://msannan.vercel.app/otherspe.html">Case Study</a> · 
-      <a href="https://github.com/m-sannan/otherspe">GitHub</a>
+      <a href="https://otherspe.vercel.app/"><img src="https://img.shields.io/badge/🚀_Live_Demo-00A800?style=flat-square&logoColor=white" alt="Demo" /></a>
+      <a href="https://msannan.vercel.app/otherspe.html"><img src="https://img.shields.io/badge/📄_Case_Study-1F2937?style=flat-square" alt="Case Study" /></a>
+      <a href="https://github.com/m-sannan/otherspe"><img src="https://img.shields.io/badge/💻_GitHub-24292E?style=flat-square&logo=github" alt="GitHub" /></a>
     </td>
     <td width="50%" align="center">
       <a href="https://ps5-shelf.vercel.app/">
         <img src="./assets/card-crate.svg" width="100%" alt="Crate" />
       </a>
       <br />
-      <a href="https://ps5-shelf.vercel.app/"><b>Live Demo</b></a> · 
-      <a href="https://msannan.vercel.app/crate.html">Case Study</a> · 
-      <a href="https://github.com/m-sannan/ps5-shelf">GitHub</a>
+      <a href="https://ps5-shelf.vercel.app/"><img src="https://img.shields.io/badge/🚀_Live_Demo-3B82F6?style=flat-square&logoColor=white" alt="Demo" /></a>
+      <a href="https://msannan.vercel.app/crate.html"><img src="https://img.shields.io/badge/📄_Case_Study-1F2937?style=flat-square" alt="Case Study" /></a>
+      <a href="https://github.com/m-sannan/ps5-shelf"><img src="https://img.shields.io/badge/💻_GitHub-24292E?style=flat-square&logo=github" alt="GitHub" /></a>
     </td>
   </tr>
   <tr>
@@ -55,17 +55,17 @@ By day I build consumer health and UPI payment products at [Alyve Health](https:
         <img src="./assets/card-staycheck.svg" width="100%" alt="StayCheck" />
       </a>
       <br />
-      <a href="https://chromewebstore.google.com/detail/staycheck/mjgdchcpacfmgocenlemmbecmcbiahkb"><b>Chrome Web Store</b></a> · 
-      <a href="https://msannan.vercel.app/staycheck.html">Case Study</a> · 
-      <a href="https://github.com/m-sannan/staycheck">GitHub</a>
+      <a href="https://chromewebstore.google.com/detail/staycheck/mjgdchcpacfmgocenlemmbecmcbiahkb"><img src="https://img.shields.io/badge/⚡_Chrome_Store-A855F7?style=flat-square&logoColor=white" alt="Web Store" /></a>
+      <a href="https://msannan.vercel.app/staycheck.html"><img src="https://img.shields.io/badge/📄_Case_Study-1F2937?style=flat-square" alt="Case Study" /></a>
+      <a href="https://github.com/m-sannan/staycheck"><img src="https://img.shields.io/badge/💻_GitHub-24292E?style=flat-square&logo=github" alt="GitHub" /></a>
     </td>
     <td width="50%" align="center">
       <a href="https://cloneify.framer.ai/">
         <img src="./assets/card-cloneify.svg" width="100%" alt="Cloneify" />
       </a>
       <br />
-      <a href="https://cloneify.framer.ai/"><b>Product Hunt (#3 of Day)</b></a> · 
-      <a href="https://msannan.vercel.app/cloneify.html">Case Study</a>
+      <a href="https://cloneify.framer.ai/"><img src="https://img.shields.io/badge/🏆_Product_Hunt-F97316?style=flat-square&logoColor=white" alt="Product Hunt" /></a>
+      <a href="https://msannan.vercel.app/cloneify.html"><img src="https://img.shields.io/badge/📄_Case_Study-1F2937?style=flat-square" alt="Case Study" /></a>
     </td>
   </tr>
 </table>

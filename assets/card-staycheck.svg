@@ -1,27 +1,32 @@
-<svg width="380" height="135" viewBox="0 0 380 135" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges" role="img" aria-label="StayCheck — Chrome Extension Project">
-  <rect width="380" height="135" rx="6" fill="#0D1117" stroke="#30363D" stroke-width="2"/>
-  <rect x="4" y="4" width="372" height="127" rx="4" fill="#161B22" stroke="#21262D" stroke-width="1"/>
-  <rect x="4" y="4" width="6" height="127" fill="#BC8CFF"/>
+<svg width="400" height="170" viewBox="0 0 400 170" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges" role="img" aria-label="StayCheck - Chrome Extension Project">
+  <!-- Outer Frame -->
+  <rect width="400" height="170" rx="8" fill="#000000" stroke="#A855F7" stroke-width="3"/>
+  <rect x="5" y="5" width="390" height="160" rx="6" fill="#111827" stroke="#1F2937" stroke-width="1"/>
+  <rect x="5" y="5" width="8" height="160" fill="#A855F7"/>
 
   <g font-family="'Courier New', Courier, Monaco, monospace" font-weight="900">
-    <!-- Header: Title + Tag -->
-    <text x="22" y="28" font-size="16" fill="#FFFFFF">StayCheck</text>
-    <rect x="240" y="14" width="122" height="18" rx="3" fill="#2E1848" stroke="#6E40C9" stroke-width="1"/>
-    <text x="301" y="27" text-anchor="middle" font-size="9" fill="#D2A8FF">CHROME EXT</text>
+    <!-- Header Title -->
+    <text x="26" y="34" font-size="20" fill="#FFFFFF">&#128269; StayCheck</text>
+    
+    <!-- Tag Pill -->
+    <rect x="250" y="18" width="132" height="22" rx="4" fill="#2E1848" stroke="#A855F7" stroke-width="1.5"/>
+    <text x="316" y="33" text-anchor="middle" font-size="10" fill="#C084FC">CHROME EXT</text>
 
-    <!-- Subtitle summary -->
-    <text x="22" y="54" font-size="11" font-weight="normal" fill="#C9D1D9">
-      Cross-checks hotel property listings
+    <!-- Description Lines -->
+    <text x="26" y="66" font-size="12" font-weight="normal" fill="#F1F5F9">
+      Cross-checks hotel property listings on
     </text>
-    <text x="22" y="70" font-size="11" font-weight="normal" fill="#C9D1D9">
-      on Booking &amp; Agoda against verified
+    <text x="26" y="84" font-size="12" font-weight="normal" fill="#F1F5F9">
+      Booking &amp; Agoda against verified Google
     </text>
-    <text x="22" y="86" font-size="11" font-weight="normal" fill="#8B949E">
-      Google Maps ratings before booking.
+    <text x="26" y="102" font-size="12" font-weight="normal" fill="#94A3B8">
+      Maps reviews and ratings before booking.
     </text>
 
-    <!-- Footer Action -->
-    <line x1="22" y1="102" x2="358" y2="102" stroke="#30363D" stroke-width="1"/>
-    <text x="22" y="120" font-size="10" fill="#D2A8FF">&#9654; CHROME STORE  ·  VIEW CASE STUDY</text>
+    <!-- Bottom Action Pill Bar -->
+    <rect x="26" y="122" width="356" height="30" rx="4" fill="#182234" stroke="#A855F7" stroke-width="1"/>
+    <text x="204" y="142" text-anchor="middle" font-size="11" fill="#C084FC">
+      &#9654; CHROME STORE &#183; LIVE OVERLAY
+    </text>
   </g>
 </svg>

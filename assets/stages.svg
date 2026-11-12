@@ -1,113 +1,112 @@
-<svg width="800" height="290" viewBox="0 0 800 290" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges" role="img" aria-label="Stages & Progression — Career World Map">
-  <defs>
-    <!-- Subtle retro scanline / grid pattern -->
-    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
-      <rect width="4" height="2" fill="#000000" opacity="0.15"/>
-    </pattern>
-  </defs>
+<svg width="850" height="340" viewBox="0 0 850 340" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges" role="img" aria-label="Stages and Progression - Career World Map">
+  <!-- Outer NES Arcade Cabinet Frame -->
+  <rect width="850" height="340" rx="8" fill="#000000" stroke="#5A1E08" stroke-width="4"/>
+  <rect x="6" y="6" width="838" height="328" rx="6" fill="#111827" stroke="#F8B800" stroke-width="2"/>
+  <rect x="12" y="12" width="826" height="316" rx="4" fill="#0B0F19"/>
 
-  <!-- Outer Arcade Cabinet Container -->
-  <rect width="800" height="290" rx="8" fill="#0D1117" stroke="#30363D" stroke-width="2"/>
-  
-  <!-- Outer Double Border (NES style) -->
-  <rect x="6" y="6" width="788" height="278" rx="6" fill="#161B22" stroke="#484F58" stroke-width="2"/>
-  <rect x="12" y="12" width="776" height="266" rx="4" fill="#0F141C" stroke="#21262D" stroke-width="1"/>
-  <rect x="12" y="12" width="776" height="266" fill="url(#scanlines)"/>
-
-  <!-- Top NES Header Bar -->
-  <rect x="12" y="12" width="776" height="34" fill="#1C2128"/>
-  <line x1="12" y1="46" x2="788" y2="46" stroke="#30363D" stroke-width="2"/>
+  <!-- Top NES Arcade Bar -->
+  <rect x="12" y="12" width="826" height="38" fill="#182234"/>
+  <line x1="12" y1="50" x2="838" y2="50" stroke="#F8B800" stroke-width="1.5"/>
 
   <!-- Pixel Corner Accents -->
-  <rect x="16" y="16" width="6" height="6" fill="#F8B800"/>
-  <rect x="778" y="16" width="6" height="6" fill="#F8B800"/>
+  <rect x="18" y="18" width="6" height="6" fill="#F8B800"/>
+  <rect x="826" y="18" width="6" height="6" fill="#F8B800"/>
 
   <g font-family="'Courier New', Courier, Monaco, monospace" font-weight="900">
     <!-- Header Title -->
-    <text x="400" y="34" text-anchor="middle" font-size="13" fill="#F8B800" letter-spacing="2">
-      ★ STAGE SELECT  ·  CAREER WORLD MAP ★
+    <text x="425" y="36" text-anchor="middle" font-size="14" fill="#F8B800" letter-spacing="2">
+      &#9733; STAGE SELECT &#183; CAREER WORLD MAP &#9733;
     </text>
 
     <!-- ==================== STAGE 1: WORLD 1-1 (CURRENT) ==================== -->
-    <g transform="translate(24, 60)">
+    <g transform="translate(24, 62)">
       <!-- Stage Box -->
-      <rect width="752" height="62" rx="4" fill="#161B22" stroke="#00A800" stroke-width="1.5"/>
-      <rect x="0" y="0" width="8" height="62" fill="#00A800"/>
+      <rect width="802" height="74" rx="4" fill="#131D2E" stroke="#00A800" stroke-width="2"/>
+      <rect x="0" y="0" width="8" height="74" fill="#00A800"/>
 
       <!-- Level Pill -->
-      <rect x="18" y="10" width="94" height="20" rx="3" fill="#00A800"/>
-      <text x="65" y="24" text-anchor="middle" font-size="10" fill="#FFFFFF" letter-spacing="1">WORLD 1-1</text>
+      <rect x="18" y="12" width="100" height="22" rx="3" fill="#00A800"/>
+      <text x="68" y="27" text-anchor="middle" font-size="11" fill="#FFFFFF" letter-spacing="1">WORLD 1-1</text>
 
       <!-- Pulsing Play Arrow -->
-      <text x="122" y="25" font-size="14" fill="#80D010">
+      <text x="130" y="28" font-size="14" fill="#80D010">
         &#9654;
         <animate attributeName="opacity" values="1;0.2;1" dur="1s" repeatCount="indefinite"/>
       </text>
 
       <!-- Company & Role -->
-      <text x="140" y="24" font-size="13" fill="#FFFFFF">Alyve Health</text>
-      <text x="250" y="24" font-size="12" fill="#80D010">· Product Manager</text>
+      <text x="148" y="28" font-size="14" fill="#FFFFFF">Alyve Health</text>
+      <text x="268" y="28" font-size="13" fill="#80D010">&#183; Product Manager</text>
 
       <!-- Status Tag -->
-      <rect x="630" y="10" width="108" height="20" rx="3" fill="#0A2E12" stroke="#00A800" stroke-width="1"/>
-      <text x="684" y="24" text-anchor="middle" font-size="9" fill="#80D010">CURRENT STAGE</text>
+      <rect x="670" y="12" width="118" height="22" rx="3" fill="#0A2E12" stroke="#00A800" stroke-width="1"/>
+      <text x="729" y="27" text-anchor="middle" font-size="10" fill="#80D010">CURRENT STAGE</text>
 
       <!-- Summary Details -->
-      <text x="18" y="48" font-size="11" font-weight="normal" fill="#C9D1D9">
-        Co-owning <tspan font-weight="bold" fill="#FFFFFF">Alyve Pay</tspan> (UPI &amp; dynamic QR), expanding <tspan font-weight="bold" fill="#FFFFFF">Alyve Flex</tspan>, and leading Doctor Consultations &amp; pharmacy.
+      <text x="18" y="52" font-size="12" font-weight="normal" fill="#E2E8F0">
+        Co-owning <tspan font-weight="bold" fill="#38BDF8">Alyve Pay</tspan> (UPI &amp; dynamic QR flows), scaling <tspan font-weight="bold" fill="#38BDF8">Alyve Flex</tspan> insurance plans, and
+      </text>
+      <text x="18" y="66" font-size="12" font-weight="normal" fill="#94A3B8">
+        leading Doctor Consultations &amp; pharmacy product pods in Bangalore.
       </text>
     </g>
 
     <!-- ==================== STAGE 2: WORLD 1-2 (CLEARED) ==================== -->
-    <g transform="translate(24, 132)">
+    <g transform="translate(24, 148)">
       <!-- Stage Box -->
-      <rect width="752" height="62" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1.5"/>
-      <rect x="0" y="0" width="8" height="62" fill="#FC9838"/>
+      <rect width="802" height="74" rx="4" fill="#131D2E" stroke="#C84C0C" stroke-width="1.5"/>
+      <rect x="0" y="0" width="8" height="74" fill="#FC9838"/>
 
       <!-- Level Pill -->
-      <rect x="18" y="10" width="94" height="20" rx="3" fill="#C84C0C"/>
-      <text x="65" y="24" text-anchor="middle" font-size="10" fill="#FFFFFF" letter-spacing="1">WORLD 1-2</text>
+      <rect x="18" y="12" width="100" height="22" rx="3" fill="#C84C0C"/>
+      <text x="68" y="27" text-anchor="middle" font-size="11" fill="#FFFFFF" letter-spacing="1">WORLD 1-2</text>
 
       <!-- Cleared Checkmark -->
-      <text x="122" y="24" font-size="13" fill="#FC9838">&#10004;</text>
+      <text x="130" y="28" font-size="14" fill="#FC9838">&#10004;</text>
 
       <!-- Company & Role -->
-      <text x="140" y="24" font-size="13" fill="#FFFFFF">CustomerGlu</text>
-      <text x="250" y="24" font-size="12" fill="#FC9838">· APM &#8594; Product Owner</text>
+      <text x="148" y="28" font-size="14" fill="#FFFFFF">CustomerGlu</text>
+      <text x="268" y="28" font-size="13" fill="#FC9838">&#183; APM &#8594; Product Owner</text>
 
       <!-- Status Tag -->
-      <rect x="630" y="10" width="108" height="20" rx="3" fill="#2E1C0A" stroke="#C84C0C" stroke-width="1"/>
-      <text x="684" y="24" text-anchor="middle" font-size="9" fill="#FC9838">STAGE CLEARED</text>
+      <rect x="670" y="12" width="118" height="22" rx="3" fill="#2E1C0A" stroke="#C84C0C" stroke-width="1"/>
+      <text x="729" y="27" text-anchor="middle" font-size="10" fill="#FC9838">STAGE CLEARED</text>
 
       <!-- Summary Details -->
-      <text x="18" y="48" font-size="11" font-weight="normal" fill="#C9D1D9">
-        Led the gamification pod (<tspan font-weight="bold" fill="#FFFFFF">streaks, scratch cards &amp; rewards</tspan>) plugged in by Nykaa, Rupeek, and consumer brands.
+      <text x="18" y="52" font-size="12" font-weight="normal" fill="#E2E8F0">
+        Led the consumer gamification pod (<tspan font-weight="bold" fill="#FCD34D">streaks, scratch cards &amp; rewards</tspan>) plugged in by
+      </text>
+      <text x="18" y="66" font-size="12" font-weight="normal" fill="#94A3B8">
+        Nykaa, Rupeek &amp; top fintech/FMCG brands to drive viral habit loops.
       </text>
     </g>
 
     <!-- ==================== STAGE 3: BONUS STAGE ==================== -->
-    <g transform="translate(24, 204)">
+    <g transform="translate(24, 234)">
       <!-- Stage Box -->
-      <rect width="752" height="62" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1.5"/>
-      <rect x="0" y="0" width="8" height="62" fill="#58A6FF"/>
+      <rect width="802" height="74" rx="4" fill="#131D2E" stroke="#3B82F6" stroke-width="1.5"/>
+      <rect x="0" y="0" width="8" height="74" fill="#60A5FA"/>
 
       <!-- Level Pill -->
-      <rect x="18" y="10" width="94" height="20" rx="3" fill="#1F4275"/>
-      <text x="65" y="24" text-anchor="middle" font-size="10" fill="#FFFFFF" letter-spacing="1">BONUS</text>
+      <rect x="18" y="12" width="100" height="22" rx="3" fill="#1D4ED8"/>
+      <text x="68" y="27" text-anchor="middle" font-size="11" fill="#FFFFFF" letter-spacing="1">BONUS</text>
 
       <!-- Star Icon -->
-      <text x="122" y="24" font-size="13" fill="#58A6FF">&#9733;</text>
+      <text x="130" y="28" font-size="14" fill="#60A5FA">&#9733;</text>
 
       <!-- Company & Role -->
-      <text x="140" y="24" font-size="13" fill="#FFFFFF">buildd / Flexiple &amp; Visual Design</text>
+      <text x="148" y="28" font-size="14" fill="#FFFFFF">buildd / Flexiple &amp; Visual Design</text>
 
       <!-- Status Tag -->
-      <rect x="630" y="10" width="108" height="20" rx="3" fill="#112238" stroke="#1F4275" stroke-width="1"/>
-      <text x="684" y="24" text-anchor="middle" font-size="9" fill="#58A6FF">BONUS CLEARED</text>
+      <rect x="670" y="12" width="118" height="22" rx="3" fill="#112238" stroke="#1D4ED8" stroke-width="1"/>
+      <text x="729" y="27" text-anchor="middle" font-size="10" fill="#60A5FA">BONUS CLEARED</text>
 
       <!-- Summary Details -->
-      <text x="18" y="48" font-size="11" font-weight="normal" fill="#C9D1D9">
-        Designed growth experiments across apps, after starting out designing physical packaging &amp; brand visuals on Fiverr.
+      <text x="18" y="52" font-size="12" font-weight="normal" fill="#E2E8F0">
+        Designed growth &amp; gamification teardowns across consumer apps, after starting out
+      </text>
+      <text x="18" y="66" font-size="12" font-weight="normal" fill="#94A3B8">
+        designing physical packaging and brand visuals on Fiverr.
       </text>
     </g>
   </g>
